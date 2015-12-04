@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE0BC2751C11771500D251A7 /* VIPER_TestChamberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0BC2741C11771500D251A7 /* VIPER_TestChamberTests.m */; };
+		AE0BC2941C1177B800D251A7 /* PlanetDetailsDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0BC2821C1177B800D251A7 /* PlanetDetailsDataManager.m */; };
+		AE0BC2951C1177B800D251A7 /* PlanetDetailsInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0BC2851C1177B800D251A7 /* PlanetDetailsInteractor.m */; };
+		AE0BC2961C1177B800D251A7 /* PlanetDetailsModule.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0BC2881C1177B800D251A7 /* PlanetDetailsModule.m */; };
+		AE0BC2971C1177B800D251A7 /* PlanetDetailsPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0BC28B1C1177B800D251A7 /* PlanetDetailsPresenter.m */; };
+		AE0BC2981C1177B800D251A7 /* PlanetDetailsRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0BC28D1C1177B800D251A7 /* PlanetDetailsRouter.m */; };
+		AE0BC2991C1177B800D251A7 /* PlanetDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0BC2901C1177B800D251A7 /* PlanetDetailsViewController.m */; };
+		AE0BC29A1C1177B800D251A7 /* PlanetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0BC2931C1177B800D251A7 /* PlanetModel.m */; };
+		AE0BC2A91C118E4300D251A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0BC2A31C118E4300D251A7 /* Assets.xcassets */; };
+		AE0BC2AA1C118E4300D251A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0BC2A41C118E4300D251A7 /* LaunchScreen.storyboard */; };
+		AE0BC2AB1C118E4300D251A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0BC2A61C118E4300D251A7 /* Main.storyboard */; };
+		AE0BC2AC1C118E4300D251A7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE0BC2A81C118E4300D251A7 /* Info.plist */; };
+		AE0BC2AF1C118ED000D251A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0BC2AE1C118ED000D251A7 /* main.m */; };
+		AE0BC2B51C118EFD00D251A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0BC2B21C118EFD00D251A7 /* AppDelegate.m */; };
+		AE0BC2B61C118EFD00D251A7 /* PlanetListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0BC2B41C118EFD00D251A7 /* PlanetListViewController.m */; };
+		AE0BC2BC1C1197A700D251A7 /* PlanetDetailsModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0BC2BB1C1197A700D251A7 /* PlanetDetailsModule.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE0BC2711C11771500D251A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE0BC24F1C11771500D251A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE0BC2561C11771500D251A7;
+			remoteInfo = "VIPER-TestChamber";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE0BC2571C11771500D251A7 /* VIPER-TestChamber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VIPER-TestChamber.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0BC2701C11771500D251A7 /* VIPER-TestChamberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VIPER-TestChamberTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0BC2741C11771500D251A7 /* VIPER_TestChamberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIPER_TestChamberTests.m; sourceTree = "<group>"; };
+		AE0BC2761C11771500D251A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE0BC2811C1177B800D251A7 /* PlanetDetailsDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PlanetDetailsDataManager.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		AE0BC2821C1177B800D251A7 /* PlanetDetailsDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PlanetDetailsDataManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		AE0BC2831C1177B800D251A7 /* PlanetDetailsDataManagerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PlanetDetailsDataManagerInterface.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		AE0BC2841C1177B800D251A7 /* PlanetDetailsInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PlanetDetailsInteractor.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		AE0BC2851C1177B800D251A7 /* PlanetDetailsInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetDetailsInteractor.m; sourceTree = "<group>"; };
+		AE0BC2861C1177B800D251A7 /* PlanetDetailsInteractorInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetDetailsInteractorInterface.h; sourceTree = "<group>"; };
+		AE0BC2871C1177B800D251A7 /* PlanetDetailsModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetDetailsModule.h; sourceTree = "<group>"; };
+		AE0BC2881C1177B800D251A7 /* PlanetDetailsModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetDetailsModule.m; sourceTree = "<group>"; };
+		AE0BC2891C1177B800D251A7 /* PlanetDetailsModuleDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetDetailsModuleDelegate.h; sourceTree = "<group>"; };
+		AE0BC28A1C1177B800D251A7 /* PlanetDetailsPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetDetailsPresenter.h; sourceTree = "<group>"; };
+		AE0BC28B1C1177B800D251A7 /* PlanetDetailsPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetDetailsPresenter.m; sourceTree = "<group>"; };
+		AE0BC28C1C1177B800D251A7 /* PlanetDetailsRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetDetailsRouter.h; sourceTree = "<group>"; };
+		AE0BC28D1C1177B800D251A7 /* PlanetDetailsRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetDetailsRouter.m; sourceTree = "<group>"; };
+		AE0BC28E1C1177B800D251A7 /* PlanetDetailsRouterInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetDetailsRouterInterface.h; sourceTree = "<group>"; };
+		AE0BC28F1C1177B800D251A7 /* PlanetDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetDetailsViewController.h; sourceTree = "<group>"; };
+		AE0BC2901C1177B800D251A7 /* PlanetDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetDetailsViewController.m; sourceTree = "<group>"; };
+		AE0BC2911C1177B800D251A7 /* PlanetDetailsViewInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetDetailsViewInterface.h; sourceTree = "<group>"; };
+		AE0BC2921C1177B800D251A7 /* PlanetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetModel.h; sourceTree = "<group>"; };
+		AE0BC2931C1177B800D251A7 /* PlanetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetModel.m; sourceTree = "<group>"; };
+		AE0BC2A31C118E4300D251A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE0BC2A51C118E4300D251A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE0BC2A71C118E4300D251A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE0BC2A81C118E4300D251A7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE0BC2AE1C118ED000D251A7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE0BC2B11C118EFD00D251A7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE0BC2B21C118EFD00D251A7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE0BC2B31C118EFD00D251A7 /* PlanetListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetListViewController.h; sourceTree = "<group>"; };
+		AE0BC2B41C118EFD00D251A7 /* PlanetListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetListViewController.m; sourceTree = "<group>"; };
+		AE0BC2BB1C1197A700D251A7 /* PlanetDetailsModule.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PlanetDetailsModule.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE0BC2541C11771500D251A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0BC26D1C11771500D251A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE0BC24E1C11771500D251A7 = {
+			isa = PBXGroup;
+			children = (
+				AE0BC2591C11771500D251A7 /* VIPER-TestChamber */,
+				AE0BC2731C11771500D251A7 /* VIPER-TestChamberTests */,
+				AE0BC2581C11771500D251A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE0BC2581C11771500D251A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE0BC2571C11771500D251A7 /* VIPER-TestChamber.app */,
+				AE0BC2701C11771500D251A7 /* VIPER-TestChamberTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE0BC2591C11771500D251A7 /* VIPER-TestChamber */ = {
+			isa = PBXGroup;
+			children = (
+				AE0BC2B01C118EFD00D251A7 /* Classes */,
+				AE0BC2A21C118E4300D251A7 /* Resources */,
+				AE0BC2AD1C118ED000D251A7 /* Other Sources */,
+			);
+			path = "VIPER-TestChamber";
+			sourceTree = "<group>";
+		};
+		AE0BC2731C11771500D251A7 /* VIPER-TestChamberTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE0BC2741C11771500D251A7 /* VIPER_TestChamberTests.m */,
+				AE0BC2761C11771500D251A7 /* Info.plist */,
+			);
+			path = "VIPER-TestChamberTests";
+			sourceTree = "<group>";
+		};
+		AE0BC27F1C1177AE00D251A7 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				AE0BC2801C1177B800D251A7 /* PlanetDetailsModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		AE0BC2801C1177B800D251A7 /* PlanetDetailsModule */ = {
+			isa = PBXGroup;
+			children = (
+				AE0BC2891C1177B800D251A7 /* PlanetDetailsModuleDelegate.h */,
+				AE0BC2871C1177B800D251A7 /* PlanetDetailsModule.h */,
+				AE0BC2881C1177B800D251A7 /* PlanetDetailsModule.m */,
+				AE0BC29C1C11786000D251A7 /* View */,
+				AE0BC29D1C11786F00D251A7 /* Presenter */,
+				AE0BC29E1C11787600D251A7 /* Router */,
+				AE0BC29F1C11789200D251A7 /* Interactor */,
+				AE0BC29B1C11783E00D251A7 /* Data */,
+			);
+			path = PlanetDetailsModule;
+			sourceTree = "<group>";
+		};
+		AE0BC29B1C11783E00D251A7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AE0BC2831C1177B800D251A7 /* PlanetDetailsDataManagerInterface.h */,
+				AE0BC2811C1177B800D251A7 /* PlanetDetailsDataManager.h */,
+				AE0BC2821C1177B800D251A7 /* PlanetDetailsDataManager.m */,
+				AE0BC2921C1177B800D251A7 /* PlanetModel.h */,
+				AE0BC2931C1177B800D251A7 /* PlanetModel.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		AE0BC29C1C11786000D251A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE0BC2911C1177B800D251A7 /* PlanetDetailsViewInterface.h */,
+				AE0BC28F1C1177B800D251A7 /* PlanetDetailsViewController.h */,
+				AE0BC2901C1177B800D251A7 /* PlanetDetailsViewController.m */,
+				AE0BC2BB1C1197A700D251A7 /* PlanetDetailsModule.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AE0BC29D1C11786F00D251A7 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				AE0BC28A1C1177B800D251A7 /* PlanetDetailsPresenter.h */,
+				AE0BC28B1C1177B800D251A7 /* PlanetDetailsPresenter.m */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		AE0BC29E1C11787600D251A7 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				AE0BC28E1C1177B800D251A7 /* PlanetDetailsRouterInterface.h */,
+				AE0BC28C1C1177B800D251A7 /* PlanetDetailsRouter.h */,
+				AE0BC28D1C1177B800D251A7 /* PlanetDetailsRouter.m */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		AE0BC29F1C11789200D251A7 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				AE0BC2861C1177B800D251A7 /* PlanetDetailsInteractorInterface.h */,
+				AE0BC2841C1177B800D251A7 /* PlanetDetailsInteractor.h */,
+				AE0BC2851C1177B800D251A7 /* PlanetDetailsInteractor.m */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		AE0BC2A21C118E4300D251A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AE0BC2A31C118E4300D251A7 /* Assets.xcassets */,
+				AE0BC2A41C118E4300D251A7 /* LaunchScreen.storyboard */,
+				AE0BC2A61C118E4300D251A7 /* Main.storyboard */,
+				AE0BC2A81C118E4300D251A7 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AE0BC2AD1C118ED000D251A7 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AE0BC2AE1C118ED000D251A7 /* main.m */,
+			);
+			path = "Other Sources";
+			sourceTree = "<group>";
+		};
+		AE0BC2B01C118EFD00D251A7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AE0BC2B11C118EFD00D251A7 /* AppDelegate.h */,
+				AE0BC2B21C118EFD00D251A7 /* AppDelegate.m */,
+				AE0BC2B31C118EFD00D251A7 /* PlanetListViewController.h */,
+				AE0BC2B41C118EFD00D251A7 /* PlanetListViewController.m */,
+				AE0BC27F1C1177AE00D251A7 /* Modules */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE0BC2561C11771500D251A7 /* VIPER-TestChamber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE0BC2791C11771500D251A7 /* Build configuration list for PBXNativeTarget "VIPER-TestChamber" */;
+			buildPhases = (
+				AE0BC2531C11771500D251A7 /* Sources */,
+				AE0BC2541C11771500D251A7 /* Frameworks */,
+				AE0BC2551C11771500D251A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VIPER-TestChamber";
+			productName = "VIPER-TestChamber";
+			productReference = AE0BC2571C11771500D251A7 /* VIPER-TestChamber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE0BC26F1C11771500D251A7 /* VIPER-TestChamberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE0BC27C1C11771500D251A7 /* Build configuration list for PBXNativeTarget "VIPER-TestChamberTests" */;
+			buildPhases = (
+				AE0BC26C1C11771500D251A7 /* Sources */,
+				AE0BC26D1C11771500D251A7 /* Frameworks */,
+				AE0BC26E1C11771500D251A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE0BC2721C11771500D251A7 /* PBXTargetDependency */,
+			);
+			name = "VIPER-TestChamberTests";
+			productName = "VIPER-TestChamberTests";
+			productReference = AE0BC2701C11771500D251A7 /* VIPER-TestChamberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE0BC24F1C11771500D251A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Laurie Hufford";
+				TargetAttributes = {
+					AE0BC2561C11771500D251A7 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					AE0BC26F1C11771500D251A7 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = AE0BC2561C11771500D251A7;
+					};
+				};
+			};
+			buildConfigurationList = AE0BC2521C11771500D251A7 /* Build configuration list for PBXProject "VIPER-TestChamber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE0BC24E1C11771500D251A7;
+			productRefGroup = AE0BC2581C11771500D251A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE0BC2561C11771500D251A7 /* VIPER-TestChamber */,
+				AE0BC26F1C11771500D251A7 /* VIPER-TestChamberTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE0BC2551C11771500D251A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0BC2AC1C118E4300D251A7 /* Info.plist in Resources */,
+				AE0BC2AB1C118E4300D251A7 /* Main.storyboard in Resources */,
+				AE0BC2A91C118E4300D251A7 /* Assets.xcassets in Resources */,
+				AE0BC2AA1C118E4300D251A7 /* LaunchScreen.storyboard in Resources */,
+				AE0BC2BC1C1197A700D251A7 /* PlanetDetailsModule.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0BC26E1C11771500D251A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE0BC2531C11771500D251A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0BC2B51C118EFD00D251A7 /* AppDelegate.m in Sources */,
+				AE0BC2AF1C118ED000D251A7 /* main.m in Sources */,
+				AE0BC29A1C1177B800D251A7 /* PlanetModel.m in Sources */,
+				AE0BC2981C1177B800D251A7 /* PlanetDetailsRouter.m in Sources */,
+				AE0BC2951C1177B800D251A7 /* PlanetDetailsInteractor.m in Sources */,
+				AE0BC2B61C118EFD00D251A7 /* PlanetListViewController.m in Sources */,
+				AE0BC2941C1177B800D251A7 /* PlanetDetailsDataManager.m in Sources */,
+				AE0BC2971C1177B800D251A7 /* PlanetDetailsPresenter.m in Sources */,
+				AE0BC2991C1177B800D251A7 /* PlanetDetailsViewController.m in Sources */,
+				AE0BC2961C1177B800D251A7 /* PlanetDetailsModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0BC26C1C11771500D251A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0BC2751C11771500D251A7 /* VIPER_TestChamberTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE0BC2721C11771500D251A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE0BC2561C11771500D251A7 /* VIPER-TestChamber */;
+			targetProxy = AE0BC2711C11771500D251A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE0BC2A41C118E4300D251A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE0BC2A51C118E4300D251A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AE0BC2A61C118E4300D251A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE0BC2A71C118E4300D251A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE0BC2771C11771500D251A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE0BC2781C11771500D251A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE0BC27A1C11771500D251A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VIPER-TestChamber/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lozhuf.VIPER-TestChamber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE0BC27B1C11771500D251A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VIPER-TestChamber/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lozhuf.VIPER-TestChamber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE0BC27D1C11771500D251A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "VIPER-TestChamberTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lozhuf.VIPER-TestChamberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIPER-TestChamber.app/VIPER-TestChamber";
+			};
+			name = Debug;
+		};
+		AE0BC27E1C11771500D251A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "VIPER-TestChamberTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lozhuf.VIPER-TestChamberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIPER-TestChamber.app/VIPER-TestChamber";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE0BC2521C11771500D251A7 /* Build configuration list for PBXProject "VIPER-TestChamber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0BC2771C11771500D251A7 /* Debug */,
+				AE0BC2781C11771500D251A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE0BC2791C11771500D251A7 /* Build configuration list for PBXNativeTarget "VIPER-TestChamber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0BC27A1C11771500D251A7 /* Debug */,
+				AE0BC27B1C11771500D251A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE0BC27C1C11771500D251A7 /* Build configuration list for PBXNativeTarget "VIPER-TestChamberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0BC27D1C11771500D251A7 /* Debug */,
+				AE0BC27E1C11771500D251A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE0BC24F1C11771500D251A7 /* Project object */;
+}
